@@ -1,3 +1,5 @@
+Sysmon, configuration files, helper scripts and helpful tools for working with SYsmon via Powershell and KQL
+
 ### Install ###
 Run with administrator rights
 ~~~~
@@ -18,7 +20,7 @@ iwr https://raw.githubusercontent.com/mellonaut/sysmon/main/onboard_research.ps1
 Run with administrator rights
 ~~~~
 sysmon.exe -c sysmon-swift.xml
-sysmon.exe -c sysmon-augment.xml
+sysmon.exe -c sysmon-mde.xml
 sysmon.exe -c sysmon-research.xml
 
 
